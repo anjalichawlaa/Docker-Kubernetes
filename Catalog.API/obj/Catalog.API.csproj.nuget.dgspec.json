@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\Catalog.API.csproj": {}
+    "E:\\Docker\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\Catalog.API.csproj": {
+    "E:\\Docker\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "E:\\Docker\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "E:\\Docker\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\anjal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\obj\\",
+        "outputPath": "E:\\Docker\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

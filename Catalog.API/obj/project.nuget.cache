@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "futGIk1TaoG2oHrgJao7w88XmSMdngqq6q4IDCcp05piI9WPvCFupwNmsfwO9vyqkGUt0wZs2f0dgiOLT8WwQQ==",
+  "dgSpecHash": "df+23EgZ3QPpnFsP8CSj5TsAxCTizREgbnh+4zLyp23amgk9OUHxSLkpHw4jluy/9+CjEYZn0XFnw4kvyow45g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anjal\\source\\repos\\MicroservicesArchi\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "E:\\Docker\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anjal\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\anjal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
