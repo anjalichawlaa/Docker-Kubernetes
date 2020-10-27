@@ -33,3 +33,19 @@ stages:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
         ArtifactName: 'drop'
         publishLocation: 'Container'
+- stage: deploy
+  displayName: deploy
+  jobs:
+  - job: deploy
+    displayName: deploy
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: DownloadPipelineArtifact@2
+      inputs:
+        buildType: 'current'
+        artifactName: 'drop'
+        itemPattern: '**/.yaml'
+        targetPath: '$(System.ArtifactsDirectory)'
+        
+         
