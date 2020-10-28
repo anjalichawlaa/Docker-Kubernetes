@@ -40,15 +40,15 @@ spec:
             path: /
             port: liveness-port
           failureThreshold: 5
-          periodSeconds: 10
-          initialDelaySeconds: 60
+          periodSeconds: 1000000
+          initialDelaySeconds: 600000
         livenessProbe:
           httpGet:
             path: /
             port: liveness-port
           failureThreshold: 5
-          periodSeconds: 10
-          initialDelaySeconds: 60
+          periodSeconds: 100000
+          initialDelaySeconds: 60000
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
 ---
