@@ -58,6 +58,6 @@ stages:
         action: 'deploy'
         kubernetesServiceConnection: 'docker-kubernetes'
         namespace: 'default'
-        manifests: '$(System.ArtifactsDirectory)/deployment.yaml'
+        manifests: '$(System.ArtifactsDirectory)/Catalog.API/deployment.yaml'
         containers: 'anjali6/docker-kubernetes:$(tag)'
          
